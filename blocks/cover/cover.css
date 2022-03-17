@@ -1,0 +1,124 @@
+.cover {
+    display: flex;
+    margin: 92px auto 0;
+    max-width: 1184px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        .cover {
+            margin: 88px auto 0;
+            }
+    }
+
+    @media screen and (max-width: 320px) {
+        .cover {
+            margin: 66px auto 0;
+            }
+    }
+
+.cover__title{
+    position: absolute;
+    top: 245px;
+    text-align: center;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    max-width: 560px;
+    z-index: 2;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title{
+        top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title{
+        top: 115px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+        top: 95px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover__title{
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title{
+        top: 33px;
+    }
+}
+
+.cover__link{
+    text-decoration: none;
+    color: white;
+}
+
+.cover__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    max-width: 360px;
+    z-index: 2;
+    opacity: 1;
+    position: absolute;
+    top: 429px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle{
+        top: 379px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        top: 299px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        top: 210px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover__subtitle{
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle{
+        top: 119px;
+    }
+}
+
+.cover__image {
+    width: 100%;
+    opacity: 30%;
+}
+
+.cover__image:hover {
+    opacity: 80%;
+}

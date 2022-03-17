@@ -1,0 +1,131 @@
+.lead {
+    margin: 56px auto;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin: 48px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+.lead__title{
+    text-align: center;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .lead__title{
+        font-style: bold;
+        text-align: center;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0;
+    }
+}
+
+.lead__subtitle {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 32px 0 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 32px 0 56px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .lead__subtitle {
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px 0 40px;
+    }
+}
+
+.lead__image {
+    background-image: url(../../images/kalegin-michail-179870-unsplash.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 615px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .lead__image {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        height: 200px;
+    }
+}
+
+.lead__image-group {
+    margin-top: 90px;
+    max-width: 938px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image-group {
+        margin-top: 85px;
+        max-width: 883px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-group {
+        margin-top: 70px;
+        max-width: 731px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-group {
+        margin-top: 29px;
+        max-width: 304px;
+    }
+}
+
+.lead__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin: 8px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__text {
+        margin: 8px 24px 0;
+    }
+}
