@@ -1,0 +1,25 @@
+.lead__image-group {
+    margin-top: 90px;
+    max-width: 938px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image-group {
+        margin-top: 85px;
+        max-width: 883px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-group {
+        margin-top: 70px;
+        max-width: 731px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-group {
+        margin-top: 29px;
+        max-width: 304px;
+    }
+}

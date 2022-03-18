@@ -1,0 +1,12 @@
+.place__link {
+    max-width: 456px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
