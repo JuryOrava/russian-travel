@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .lead__image-group {
         margin-top: 29px;
         max-width: 304px;
